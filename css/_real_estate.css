@@ -1,0 +1,31 @@
+
+.business-details-item.cols2 {
+    width: 50%;
+}
+
+.business-details-item.cols3 {
+    width: 50%;
+}
+
+.real-estate-description {
+    align-self: flex-start;
+    padding: 40px 0;
+    font-size: 14px;
+    line-height: 17px;
+    color: #fff;
+}
+
+.real-estate-description ul {
+    list-style: disc inside;
+}
+
+@media screen and (min-width: 1024px) {
+    .real-estate-description {
+        font-size: 22px;
+        line-height: 27px;
+    }
+
+    .business-details-item.cols3 {
+        width: 33%;
+    }
+}

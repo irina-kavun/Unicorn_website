@@ -1,0 +1,109 @@
+.map-section {
+    display: flex;
+    justify-content: center;
+}
+
+.map-wrapper {
+    padding: 15px 15px 11px 15px;
+    margin-bottom: 60px;
+    width: 90%;
+    height: 40vh;
+    min-width: 248px;
+    min-height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid #F38A03;
+}
+
+.map-wrapper.energym-map-wrap {
+    border: 5px solid #ED1260;
+    margin-bottom: 63px;
+}
+
+.marketing-map-wrap {
+    border: 5px solid;
+    border-image-source: linear-gradient(45deg, #E34A7B, #4C4184);
+    border-image-slice: 1;
+    margin-top: 53px;
+    margin-bottom: 54px;
+}
+
+.danit-map-wrap {
+    border: 5px solid;
+    border-image-source: linear-gradient(45deg, #5046C7, #1ECDAA);
+    border-image-slice: 1;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.map {
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+.marketing-map {
+    width: 248px;
+    height: 160px;
+}
+
+.danit-map {
+    width: 287px;
+    height: 208px;
+}
+
+.map-description {
+    color: #fff;
+    font-size: 12px;
+    line-height: 15px;
+    margin-bottom: 0;
+    padding-top: 7px;
+}
+
+@media (min-width: 640px) {
+    .marketing-map {
+        width: 551px;
+        height: 281px;
+    }
+    .map-description {
+        padding-top: 12px;
+        font-size: 22px;
+        line-height: 27px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .map-wrapper {
+        padding: 27px 27px 11px 27px;
+        min-width: 579px;
+        min-height: 296px;
+    }
+
+    .map-wrapper.energym-map-wrap {
+        margin-bottom: 126px;
+    }
+
+    .marketing-map-wrap {
+        margin-top: 66px;
+        margin-bottom: 71px;
+    }
+
+    .danit-map-wrap {
+        margin-top: 96px;
+        margin-bottom: 130px;
+    }
+
+
+    .marketing-map {
+        width: 551px;
+        height: 281px;
+    }
+
+    .danit-map {
+        width: 675px;
+        height: 425px;
+    }
+}

@@ -1,0 +1,118 @@
+.background-gradient {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.92) 0%, rgba(12, 12, 12, 0.598) 100%);
+}
+
+.background-contacts {
+    position: relative;
+    z-index: 1;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.contacts-items {
+    display: flex;
+    width: 228px;
+    margin: 0 auto;
+}
+
+.contacts-text-padding {
+    padding-top: 5px;
+    padding-right: 5px;
+}
+
+.contacts-email {
+    padding-top: 60px;
+}
+
+.contacts-images {
+    width: 45px;
+    height: 45px;
+    background-repeat: no-repeat;
+    padding-left: 45px;
+}
+
+.country-text {
+    font-size: 18px;
+    color: #fff;
+    padding: 27px 50px 17px;
+}
+
+.social-text {
+    text-align: center;
+}
+
+.social-apps {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+}
+
+.maps {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin: 0 auto;
+    width: 85%;
+    height: 151px;
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    .maps {
+        width: 85%;
+        height: 364px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .maps {
+        width: 100%;
+        height: 300px;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+    .basic-container {
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 0 40px 0 100px;
+    }
+
+    .flex-container-contacts {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 25px;
+    }
+
+    .flex-container-adress {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section-title {
+        padding-left: 10px;
+    }
+
+    .contacts-items {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .maps {
+        width: 480px;
+        height: 227px;
+    }
+
+    .social-media {
+        display: flex;
+        flex-direction: column;
+        width: 250px;
+    }
+
+}

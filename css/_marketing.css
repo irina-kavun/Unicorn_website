@@ -1,0 +1,8 @@
+.title-image-section{
+    padding-bottom: 40px;
+}
+@media (min-width: 1024px) {
+    .title-image-section{
+        padding-bottom: 57px;
+    }
+}
